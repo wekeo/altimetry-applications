@@ -8,7 +8,8 @@
 [![USER PORTAL](https://img.shields.io/badge/open-USER%20PORTAL-154360.svg)](https://user.eumetsat.int/data/themes/marine)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.eumetsat.int%2Feumetlab%2Foceans%2Focean-training%2Fapplications%2Faltimetry-applications/HEAD?labpath=Index.ipynb)
 [![WEkEO](https://img.shields.io/badge/launch-WEKEO-1a4696.svg)](https://jupyterhub.prod.wekeo2.eu/hub/user-redirect/lab/tree/public/wekeo4oceans/altimetry-applications/Index.ipynb)
-[![DestinE](https://img.shields.io/badge/launch-DestinE-f43fd3.svg)](https://code.insula.destine.eu/hub/)
+[![Stack](https://img.shields.io/badge/launch-Stack-2596be.svg)](https://jupyter.central.data.destination-earth.eu/)
+[![Insula](https://img.shields.io/badge/launch-DestinE_Insula_Code-f43fd3.svg)](https://code.insula.destine.eu/)
 
 <hr>
 
@@ -17,7 +18,7 @@ This software was developed for EUMETSAT under contract EUM/CO/21/4600002620, fu
 
 The **altimetry-applications** module consists of a collection of python-based Jupyter-notebooks that demonstrate some common methodologies employed in the field of altimetry. The focus is predominantly on altimetry products made available by EUMETSAT through the Copernicus programme (e.g. those from Sentinel-3 SRAL, Sentinel-6 POSEIDON-4 and Jason-3) but also includes information on general principles of altimetry. It features examples of typical workflows and approaches relevant to multi-sensor analysis, amongst others.
 
-Users looking for more information on using products from the Sentinel-3 Synthetic Aperture Radar Altimeter (SRAL) and Sentinel-6 POSEIDON-4 altimeter in the marine domain are encouraged to check out our [learn-sral](https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/sensors/learn-sral) and [learn-s6](https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/sensors/learn-s6) repositories.
+Users looking for more information on using products from the Sentinel-3 Synthetic Aperture Radar Altimeter (SRAL) and Sentinel-6 Poseidon-4 altimeter in the marine domain are encouraged to check out our [learn-sral](https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/sensors/learn-sral) and [learn-s6](https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/sensors/learn-s6) repositories.
 
 For any questions about this repository, please contact ops@eumetsat.int.
 
@@ -29,7 +30,7 @@ This software and all associated intellectual property rights (IPRs) are owned b
 
 This code is licensed under an MIT license. See file LICENSE.txt for details on 
 the usage and distribution terms. No dependencies are distributed as part of this 
-package. Copyright 2025 European Union.
+package. Copyright 2026 European Union.
 
 All product names, logos, and brands are property of their respective owners. 
 All company, product and service names used in this website are for identification 
@@ -53,22 +54,27 @@ operating system. Anaconda Python distributions include Jupyter Notebook.
 
 |item|version|licence|package info|
 |---|---|---|---|
-|bokeh|3.2.1|BSD-3|https://anaconda.org/conda-forge/bokeh|
-|cartopy|0.23.0|BSD-3|https://scitools.org.uk/cartopy/docs/latest/copyright.html|
+|bokeh|3.8.2|BSD-3|https://anaconda.org/conda-forge/bokeh|
+|cartopy|0.25.0|LGPL-3|https://scitools.org.uk/cartopy/docs/latest/copyright.html|
 |cmocean|4.0.3|MIT|https://anaconda.org/conda-forge/cmocean|
 |dask|2024.6.0|BSD-3|https://anaconda.org/conda-forge/dask|
-|distributed|2024.6.0|BSD-3|https://anaconda.org/conda-forge/distributed| 
-|hda|2.16|Apache-2.0|https://pypi.org/project/hda|
-|ipympl|0.9.6|NSD-3|https://anaconda.org/conda-forge/ipympl/|
-|ipywidgets|8.1.3|BSD-3|https://anaconda.org/conda-forge/ipywidgets|
-|jupyterlab|4.2.2|BSD-3|https://anaconda.org/conda-forge/jupyterlab|
-|matplotlib|3.8.4|PSFL|https://matplotlib.org/stable/users/project/license.html|
-|netcdf4|1.7.1|MIT|https://anaconda.org/conda-forge/netcdf4|
-|python|3.10|PSF|https://docs.python.org/3.10/license.html|
-|scipy|1.13.0|BSD-3|https://anaconda.org/conda-forge/scipy|
-|xarray|2024.6.0|Apache-2.0|https://anaconda.org/conda-forge/xarray|
-|eumartools|0.0.1|MIT|https://anaconda.org/cmts/eumartools|
-|eumdac|2.2.2|MIT|https://anaconda.org/eumetsat/eumdac|
+|dask-labextension|7.0.0|BSD-3|https://anaconda.org/conda-forge/dask-labextension|
+|distributed|2026.1.2|BSD-3|https://anaconda.org/conda-forge/distributed/| 
+|hda|2.39|Apache-2.0|https://pypi.org/project/hda|
+|ipywidgets|8.1.8|BSD-3|https://anaconda.org/conda-forge/ipywidgets|
+|jupyterlab|4.5.5|BSD-3|https://anaconda.org/conda-forge/jupyterlab|
+|matplotlib|3.10.8|PSFL|https://matplotlib.org/stable/users/project/license.html|
+|netcdf4|1.7.4|MIT|https://anaconda.org/conda-forge/netcdf4|
+|pip|26.0.1|MIT|https://anaconda.org/conda-forge/pip|
+|python|3.13.12|PSF|https://docs.python.org/3/license.html|
+|scikit-image|0.26.0|BSD-3|https://anaconda.org/conda-forge/scikit-image|
+|scipy|1.17.1|BSD-3|https://anaconda.org/conda-forge/scipy|
+|shapely|2.1.2|BSD-3|https://anaconda.org/conda-forge/shapely|
+|xarray|2026.2.0|Apache-2.0|https://anaconda.org/conda-forge/xarray|
+|destinelab|1.13|MIT|https://pypi.org/project/destinelab/|
+|eumartools|0.0.2|MIT|https://anaconda.org/cmts/eumartools|
+|eumdac|3.1.0|MIT|https://anaconda.org/eumetsat/eumdac|
+|copernicusmarine|2.3.0|EUPL-1.2|https://pypi.org/project/copernicusmarine|
 
 ## Installation
 

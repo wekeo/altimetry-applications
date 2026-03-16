@@ -1,9 +1,9 @@
 # Component information
 name: altimetry-applications
 description: Compendium of training content associated with concepts, models and methodological approaches for working with altimetry products from Earth observation.
-copyright: 2025 European Union
+copyright: 2026 European Union
 license_spdx: MIT
-date: 01-04-2025
+date: 03-03-2026
 home_url: https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/applications/altimetry-applications
 
 # Package IPR documentation

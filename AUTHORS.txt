@@ -1,13 +1,15 @@
 # Copyright holder
-copyright: 2025 European Union
+copyright: 2026 European Union
 license: LICENSE.txt
-
+ 
 # List of development authors
-Ben Loveday (Innoflair UG)
-Vinca Rosmorduc (CLS)
+Ben Loveday (Innoflair UG / EUMETSAT)
 Hayley Evers-King (EUMETSAT)
+Vinca Rosmorduc (CLS)
+Joana Brito (Innoflair UG / EUMETSAT)
 
 # List of contributory authors
+Marcello Passaro (TUM)
 
 # Support
 For all queries on this software package, please contact ops@eumetsat.int
